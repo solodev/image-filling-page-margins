@@ -13,8 +13,7 @@ The tutorial contains the following basic HTML markup.
 ```
  <section class="section-text">
           <div class="picture">
-            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="" class="img-responsive hidden-xs">
-            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image-xs.jpg" alt="" class="img-responsive visible-xs"> 
+            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="" class="img-responsive">
           </div>
           <div class="container">
             <div class="row">
