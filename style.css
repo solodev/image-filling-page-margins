@@ -1,0 +1,126 @@
+.container::after,
+.container::before,
+.row::after,
+.row::before {
+	content: " ";
+	display: table;
+}
+.container::after,
+.row::after {
+	clear: both;
+}
+.row {
+	display: block;
+}
+.section-text {
+	background: #fafafa;
+	overflow: hidden;
+}
+.section-text .picture {
+	width: 48%;
+	float: left;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.visible-xs {
+	display: none!important;
+}
+@media (max-width: 767px) {
+	.visible-xs {
+		display: block!important;
+	}
+	.hidden-xs {
+		display: none;
+	}
+}
+.section-text .picture img {
+	height: 491px;
+}
+@media (min-width: 992px) {
+	.section-text .picture img {
+		object-fit: cover;
+	}
+	.container {
+		width: 970px;
+	}
+}
+@media (max-width: 992px) {
+	.section-text .picture {
+		width: 100%;
+		overflow: auto;
+	}
+	.section-text .picture img {
+		height: auto;
+	}
+	.section-text .picture img {
+		height: auto;
+	}
+	.section-text .text-wrapper p br {
+		display: none;
+	}
+}
+.section-text .text-wrapper {
+	width: 50%;
+	float: right;
+	padding-top: 94px;
+	padding-left: 78px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+	.section-text .text-wrapper {
+		padding-left: 30px;
+	}
+}
+@media (max-width: 992px) and (min-width: 768px) {
+	.section-text .text-wrapper {
+		width: 100%;
+		float: none;
+		clear: both;
+		padding: 40px 20px;
+	}
+	.section-text .text-wrapper p {
+		font-size: 16px;
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 768px) {
+	.section-text .picture img {
+		margin: 0 auto;
+	}
+	.section-text .text-wrapper {
+		width: 100%;
+		padding: 35px 30px 60px 30px;
+		text-align: center;
+	}
+	.section-text .text-wrapper h2 {
+		text-align: center;
+		margin-bottom: 27px;
+	}
+	.section-text .text-wrapper p {
+		font-size: 15px;
+		text-align: left;
+		line-height: 25px;
+	}
+}
+.section-text .text-wrapper h2 {
+	margin-bottom: 35px;
+}
+.section-text .text-wrapper p {
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 50px;
+}
+.section-text .text-wrapper .btn-primary {
+	font-size: 19px;
+	background-color: #3d5d6f;
+	border-color: #3d5d6f;
+	padding: 0.5rem 1rem;
+	width: 195px;
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1180px;
+	}
+}
