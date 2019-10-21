@@ -5,15 +5,16 @@ When using Bootstrap containers, your image + text section will by default havin
 For detailed instruction's, view Solodev's [How to Make an Image Fill the Page Margins](https://www.solodev.com/blog/how-to-make-an-image-fill-the-page-margins.stml) article.
  
 ## Demo  		  
-Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/9mqw14ka/1/).
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/9mqw14ka/2/).
 
 ## HTML
 The tutorial contains the following basic HTML markup.
 
 ```
- <section class="section-text">
+<section class="section-text">
           <div class="picture">
-            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="" class="img-fluid">
+            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="astronaut" class="img-fluid hidden-xs">
+            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image-sm.jpg" alt="catstronaut" class="img-fluid visible-xs"> 
           </div>
           <div class="container">
             <div class="row">
