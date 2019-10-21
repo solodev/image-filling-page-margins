@@ -13,7 +13,7 @@ The tutorial contains the following basic HTML markup.
 ```
  <section class="section-text">
           <div class="picture">
-            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="" class="img-responsive">
+            <img src="https://raw.githubusercontent.com/solodev/image-filling-page-margins/master/images/image.jpg" alt="" class="img-fluid">
           </div>
           <div class="container">
             <div class="row">

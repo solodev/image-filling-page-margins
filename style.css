@@ -13,17 +13,29 @@
 	display: block;
 }
 .section-text {
-	background: #fafafa;
+	background: #010101;
+	color: #fafafa;
 	overflow: hidden;
 }
 .section-text .picture {
 	width: 48%;
 	float: left;
 }
-.img-responsive {
-	display: block;
+.img-fluid {
+	width: 100%;
 	max-width: 100%;
 	height: auto;
+}
+.visible-xs {
+	display: none!important;
+}
+@media (max-width: 767px) {
+	.visible-xs {
+		display: block!important;
+	}
+	.hidden-xs {
+		display: none;
+	}
 }
 .section-text .picture img {
 	height: 491px;
@@ -98,7 +110,6 @@
 }
 .section-text .text-wrapper p {
 	font-size: 18px;
-	color: #333;
 	margin-bottom: 50px;
 }
 .section-text .text-wrapper .btn-primary {
